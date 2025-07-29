@@ -14,3 +14,52 @@ button{
 .bg-pink{
 	background-color:pink;
 }
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.dropdowns {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dropdowns label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.dropdowns select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.details {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-bottom: 5px;
+  color: #333;
+}
